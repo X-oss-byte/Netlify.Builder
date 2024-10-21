@@ -56,14 +56,14 @@
   "license": "MIT",
   "dependencies": {
     "@bugsnag/js": "^7.0.0",
-    "@netlify/edge-bundler": "^2.9.0",
+    "@netlify/edge-bundler": "^12.2.3",
     "@netlify/cache-utils": "^4.0.0",
     "@netlify/config": "^18.2.3",
     "@netlify/functions-utils": "^4.2.9",
     "@netlify/git-utils": "^4.0.0",
     "@netlify/plugins-list": "^6.80.0",
     "@netlify/run-utils": "^4.0.0",
-    "@netlify/zip-it-and-ship-it": "^7.1.3",
+    "@netlify/zip-it-and-ship-it": "^9.41.0",
     "@sindresorhus/slugify": "^2.0.0",
     "@types/node": "^16.0.0",
     "ajv": "^8.11.0",
@@ -112,7 +112,7 @@
     "yargs": "^17.3.1"
   },
   "devDependencies": {
-    "@netlify/nock-udp": "^1.0.0",
+    "@netlify/nock-udp": "^3.1.2",
     "atob": "^2.1.2",
     "ava": "^4.0.0",
     "cpy": "^8.1.0",
