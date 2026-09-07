@@ -94,7 +94,7 @@ jobs:
           fetch-depth: 0
         if: ${{ !steps.release-check.outputs.IS_RELEASE }}
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2.0.5
         with:
           deno-version: v1.x
       - name: Node.js ${{ matrix.node-version }}
